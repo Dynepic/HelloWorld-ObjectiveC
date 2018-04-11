@@ -1,7 +1,7 @@
 ![](./readmeAssets/wordmark.png)
-# <b>Hello World - ObjectiveC</b></br>
-playPORTAL <sup>TM</sup> provides a service to app developers for managing users of all ages and the data associated with the app and the app users, while providing compliance with required COPPA laws and guidelines.
+##### playPORTAL <sup>TM</sup> provides a service to app developers for managing users of all ages and the data associated with the app and the app users, while providing compliance with required COPPA laws and guidelines.
 
+# <b>Hello World - ObjectiveC</b></br>
 
 ## Getting Started
 
