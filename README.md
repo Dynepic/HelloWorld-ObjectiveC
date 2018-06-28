@@ -38,9 +38,31 @@
 		```
 		###### For the purpose of running this HelloWorld app, these keys are in plain text in the file, but for a production app you must store them securely - they uniquely identify your app and grant the permissions to your app as defined in the playPORTAL Partner Dashboard.
 
-* ## <b>Step 5:</b> Run the app from XCode.
+* ### <b>Step 5:</b> Add URL Query Scheme to Info.plist
 
-* ## <b>Step 6:</b> Generate "Sandbox" users for testing.
+	* Right click on the 'Info.plist' file in the navigation window of XCode.
+	* Add the following lines:
+		```
+		<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>helloworld</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>helloworld</string>
+			</array>
+		</dict>
+		</array>
+		```
+		###### For the purpose of running this HelloWorld app, these keys are in plain text in the file, but for a production app you must store them securely - they uniquely identify your app and grant the permissions to your app as defined in the playPORTAL Partner Dashboard.
+
+* ### <b>Step 6:</b> Run the app from XCode.
+
+	* In "AppDelegate.m" replace the following values with the values generated in 'Step 3'.
+
+* ### <b>Step 7:</b> Generate "Sandbox" users for testing.
 	* In the [playPORTAL Partner Dashboard](https://partner.iokids.net), click on "Sandbox" in the left navigation pane.
 	* Here you can generate different types of "Sandbox Users" so you can log in to your app and try it out.
 	* "Sandbox Users" can be of type "Adult", "Parent", or "Child".
