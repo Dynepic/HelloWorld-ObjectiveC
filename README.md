@@ -26,10 +26,17 @@
 
 	* Tap "Client IDs & Secrets"
 	* Tap "Generate Client ID"
-	* The values generated will be used in 'Step 4'.
+	* The values generated will be used in 'Step 5'.
   </br>
 
-* ### <b>Step 4:</b> Add Client ID and Client Secret to App
+* ### <b>Step 4:</b> Add a "Registered Redirect URI"
+
+	* Tap "Registered Redirect URIs"
+	* Tap "+ Add Redirect URI"
+	* Enter "helloworld://redirect" in to the prompt and click "Submit".
+  </br>
+
+* ### <b>Step 5:</b> Add Client ID and Client Secret to App
 
 	* In "AppDelegate.m" replace the following values with the values generated in 'Step 3'.
 		```
@@ -38,9 +45,10 @@
 		```
 		###### For the purpose of running this HelloWorld app, these keys are in plain text in the file, but for a production app you must store them securely - they uniquely identify your app and grant the permissions to your app as defined in the playPORTAL Partner Dashboard.
 
-* ### <b>Step 5:</b> Add URL Query Scheme to Info.plist
+* ### <b>Step 6:</b> Add URL Query Scheme to Info.plist
 
 	* Right click on the 'Info.plist' file in the navigation window of XCode.
+	* Select "Open as > Source Code"
 	* Be sure the following lines are included, if not add them:
 		```
 		<key>CFBundleURLTypes</key>
@@ -59,11 +67,11 @@
 		```
 		###### For the purpose of running this HelloWorld app, these keys are in plain text in the file, but for a production app you must store them securely - they uniquely identify your app and grant the permissions to your app as defined in the playPORTAL Partner Dashboard.
 
-* ### <b>Step 6:</b> Run the app from XCode.
+* ### <b>Step 7:</b> Run the app from XCode.
 
 	* In "AppDelegate.m" replace the following values with the values generated in 'Step 3'.
 
-* ### <b>Step 7:</b> Generate "Sandbox" users for testing.
+* ### <b>Step 8:</b> Generate "Sandbox" users for testing.
 	* In the [playPORTAL Partner Dashboard](https://partner.iokids.net), click on "Sandbox" in the left navigation pane.
 	* Here you can generate different types of "Sandbox Users" so you can log in to your app and try it out.
 	* "Sandbox Users" can be of type "Adult", "Parent", or "Child".
