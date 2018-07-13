@@ -41,8 +41,9 @@
 * ### <b>Step 5:</b> Add URL Query Scheme to Info.plist
 
 	* Right click on the 'Info.plist' file in the navigation window of XCode.
-	* Add the following lines:
+	* Be sure the following lines are included, if not add them:
 		```
+		<key>CFBundleURLTypes</key>
 		<array>
 		<dict>
 			<key>CFBundleTypeRole</key>
