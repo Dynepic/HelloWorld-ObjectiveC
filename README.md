@@ -69,8 +69,6 @@
 
 * ### <b>Step 7:</b> Run the app from XCode.
 
-	* In "AppDelegate.m" replace the following values with the values generated in 'Step 3'.
-
 * ### <b>Step 8:</b> Generate "Sandbox" users for testing.
 	* In the [playPORTAL Partner Dashboard](https://partner.iokids.net), click on "Sandbox" in the left navigation pane.
 	* Here you can generate different types of "Sandbox Users" so you can log in to your app and try it out.
