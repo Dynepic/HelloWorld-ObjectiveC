@@ -5,7 +5,7 @@
 
 ## Getting Started
 
-* ### <b>Step 1:</b> Create playPORTAL Partner Account
+* ### <b>Step 1:</b> Create playPORTAL Studio Account
 
 	* Navigate to [playPORTAL Studio](https://studio.playportal.io)
 	* Click on <b>Sign Up For FREE Accountt</b>
